@@ -1,5 +1,7 @@
 # EPUB to Markdown Converter
 
+[English](README_EN.md) | 简体中文
+
 一个将 EPUB 电子书转换为 Markdown 格式的 Python 工具，支持提取图片、保留文档结构和元数据。  
 提供 **命令行 (CLI)** 和 **图形界面 (GUI)** 两种使用方式。
 
