@@ -223,6 +223,15 @@ class EpubToMarkdownConverter:
 
         return metadata
 
+    @property
+    def metadata(self) -> BookMetadata:
+        """书籍元数据属性。
+
+        Returns:
+            包含书籍元数据的 BookMetadata 对象。
+        """
+        return self.get_metadata()
+
     def _extract_toc(self) -> list[TocItem]:
         """提取 EPUB 的目录结构。
 
